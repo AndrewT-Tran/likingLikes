@@ -1,46 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
-*{
+* { 
     margin: 0 auto;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 .container{
-    border: 2px solid rgb(128, 0, 0);
-    width: 1000px;
+    width: 600px;
 
+}
+.content{
+    display: flex;
+    justify-items: center;
+    margin: 4px;
+}
+
+
+
+.profile {
+    width: 100px;
+    background-color: #FFD74C;
+    border: 2px solid rgb(15, 18, 15);
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
 }
 .card {
     width: 400px;
-    border: 2px solid green;
-    margin: 5px;
+    border: 2px solid rgb(15, 18, 15);
+    margin: 10px;
+    padding: 5px;
 }
 .row{
     display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
+    width: 400px;
+    margin: 5px;
+    padding: 10px;
 }
-.row2{
-    display: block;
-    justify-content: center;
-    padding: 0 15px;
 
-}
 .col{
     flex:1;
-
 }
 .col2{
-    flex:2;
-    margin-inline-end: auto;
+    flex: 2;
+    
 }
 
 button.button{
     background-color: #FFD74C;
     width: 50px;
-    margin-top: 20px;
-    margin-left: 50px;
-    padding: 2px;
     text-align: center;
+    margin: 5px;
     box-shadow: 2px 2px 3px black;
 }
 p.align{
@@ -50,11 +59,19 @@ p.align{
 }
 h1.center{
     text-align: center;
-    margin: 5px;
+    padding-top: 10px;
+
 }
 
 h1.network{
     background-color: black;
     color: white;
-    padding: 0 20px;
+    padding: 10px 10px;
+
+    
+
+}
+.img{
+    width: 100px;
+    height: 100px;
 }
