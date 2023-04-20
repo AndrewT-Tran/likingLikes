@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
 *{
+    margin: 0 auto;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+.container{
+    border: 2px solid rgb(128, 0, 0);
+    width: 1000px;
 
+}
 .card {
-    width: 300px;
+    width: 400px;
     border: 2px solid green;
     margin: 5px;
 }
@@ -41,4 +47,14 @@ p.align{
     text-align: start;
     padding: 2px;
     font-size: 12px;
+}
+h1.center{
+    text-align: center;
+    margin: 5px;
+}
+
+h1.network{
+    background-color: black;
+    color: white;
+    padding: 0 20px;
 }
