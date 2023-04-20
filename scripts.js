@@ -6,6 +6,6 @@ function like() {
 }
 function add1(){
     likes++;
-    count.innerText = likes + " like(s)";
+    count.innerText = "like(s)" + likes;
     console.log(likes);
 }
